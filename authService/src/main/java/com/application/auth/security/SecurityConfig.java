@@ -6,6 +6,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import com.application.auth.service.ExService;
+
 import lombok.RequiredArgsConstructor;
 
 @EnableWebSecurity //Spring Security를 적용한다는 어노테이션
