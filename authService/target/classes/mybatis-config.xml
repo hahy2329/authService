@@ -3,4 +3,12 @@
 
 <configuration>
 		
+		<settings>
+			<setting name="mapUnderscoreToCamelCase" value="true"/>
+		</settings>
+		
+		<typeAliases>
+			<typeAlias type="com.application.auth.user.USER" alias="USER"/>
+		</typeAliases>
+		
 </configuration>
