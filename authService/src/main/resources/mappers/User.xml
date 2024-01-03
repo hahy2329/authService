@@ -13,4 +13,15 @@
 		)
 	
 	</insert>
+	
+	<select id="getUserInfo" parameterType="String" resultType="User">
+		
+		SELECT 
+			*
+		FROM
+			USER
+		WHERE
+			EMAIL = #{email}
+	 
+	</select>
 </mapper>

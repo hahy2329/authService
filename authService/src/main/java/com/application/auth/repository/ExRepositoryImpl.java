@@ -21,4 +21,10 @@ public class ExRepositoryImpl implements ExRepository {
 
 	}
 
+
+	@Override
+	public User findUserByEmail(String email) {
+		return sqlSession.selectOne("user.getUserInfo", email);
+	}
+
 }

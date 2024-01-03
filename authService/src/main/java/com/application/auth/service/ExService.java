@@ -6,6 +6,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.application.auth.repository.ExRepository;
 import com.application.auth.security.MyUserDetail;
 import com.application.auth.user.User;
 
@@ -31,8 +32,6 @@ public class ExService implements UserDetailsService {
 		repository.saveUser(user);
 		
 	}
-	
-	//repository 만들기
 	
 	
 	

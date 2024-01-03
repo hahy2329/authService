@@ -8,7 +8,7 @@
 		</settings>
 		
 		<typeAliases>
-			<typeAlias type="com.application.auth.user.USER" alias="USER"/>
+			<typeAlias type="com.application.auth.user.USER" alias="User"/>
 		</typeAliases>
 		
 </configuration>

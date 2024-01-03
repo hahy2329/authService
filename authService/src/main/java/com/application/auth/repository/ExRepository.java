@@ -5,4 +5,5 @@ import com.application.auth.user.User;
 public interface ExRepository {
 	
 	public void saveUser(User user);
+	public User findUserByEmail(String email);
 }
